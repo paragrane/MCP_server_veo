@@ -1,0 +1,32 @@
+{
+  "name": "mcp-server-google-veo",
+  "version": "1.0.0",
+  "description": "MCP server for Google Veo video generation",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsc && node dist/server.js",
+    "client": "node dist/client.js"
+  },
+  "keywords": [
+    "mcp",
+    "google-veo",
+    "video-generation",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  }
+}

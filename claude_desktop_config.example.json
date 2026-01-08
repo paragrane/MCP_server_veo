@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "google-veo": {
+      "command": "node",
+      "args": ["/absolute/path/to/MCP_server_veo/dist/server.js"],
+      "env": {
+        "GOOGLE_AI_API_KEY": "your_google_ai_api_key_here"
+      }
+    }
+  }
+}
