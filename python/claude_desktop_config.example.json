@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "google-veo": {
+      "command": "python3",
+      "args": ["/absolute/path/to/MCP_server_veo/python/src/server.py"],
+      "env": {
+        "GOOGLE_AI_API_KEY": "your_google_ai_api_key_here"
+      }
+    }
+  },
+  "note": "If using a virtual environment, use the full path to the Python interpreter in the venv",
+  "example_with_venv": {
+    "google-veo": {
+      "command": "/absolute/path/to/MCP_server_veo/python/venv/bin/python3",
+      "args": ["/absolute/path/to/MCP_server_veo/python/src/server.py"],
+      "env": {
+        "GOOGLE_AI_API_KEY": "your_google_ai_api_key_here"
+      }
+    }
+  }
+}

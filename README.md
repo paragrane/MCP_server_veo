@@ -2,6 +2,15 @@
 
 A Model Context Protocol (MCP) server that provides integration with Google Veo, Google's advanced video generation AI model.
 
+## Available Implementations
+
+This repository provides **two complete implementations**:
+
+- **[TypeScript/Node.js](/)** - Located in the root directory (this README)
+- **[Python](python/)** - Located in the `python/` directory
+
+Both implementations provide identical functionality. Choose based on your development environment and preferences.
+
 ## Features
 
 - **Video Generation**: Generate videos from text prompts using Google Veo
